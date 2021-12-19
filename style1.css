@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 1% 10%;
+    height: 100vh;
+    width: 100vw;
+
+
+}
+.pre{
+    text-align: center;
+    margin:3% ;
+
+}
+.maincontainer{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(189, 206, 236);
+}
+.ques{
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+.ans{
+    font-size: 20px;
+}

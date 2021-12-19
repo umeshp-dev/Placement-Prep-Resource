@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Prep Resource - HTML Concepts</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="maincontainer">
+        <h2 class="pre"><u>PLACEMENT PREPARATION <RESOURSE-1></RESOURSE-1></u></h2>
+        <div class="content">
+            <div class="quesandans">
+                <h3 class="ques">What is CSS and how does it work with HTML?</h3>
+                <p class="ans">.HTML: Hypertext Markup Language (HTML) is how web pages are 'built'. It determines what
+                    types of elements appear on the page, and where. CSS: This language is designed to be used alongside
+                    a 'markup' language like HTML. CSS defines how HTML elements are formatted – controlling their
+                    layout, colors, fonts, and so on.</p>
+            </div>
+            <div class="content">
+                <div class="quesandans">
+                    <h3 class="ques">What are selectors and what are their different types?</h3>
+                    <p class="ans"> A CSS selector selects the HTML element(s) you want to style.We can divide CSS
+                        selectors into five categories:
+                        Simple selectors (select elements based on name, id, class)
+                        ---Combinator selectors (select elements based on a specific relationship between them)
+                        ---Pseudo-class selectors (select elements based on a certain state)
+                        ---Pseudo-elements selectors (select and style a part of an element)
+                        ---Attribute selectors (select elements based on an attribute or attribute value).
+                    </p>
+                </div>
+                <div class="content">
+                    <div class="quesandans">
+                        <h3 class="ques"> What is CSS selector specificity and how does it work?
+                        </h3>
+                        <p class="ans"> If there are two or more conflicting CSS rules that point to the same element,
+                            the browser follows some rules to determine which one is most specific and therefore wins
+                            out. Think of specificity as a score/rank that determines which style declarations are
+                            ultimately applied to an element.</p>
+                    </div>
+                    <div class="content">
+                        <div class="quesandans">
+                            <h3 class="ques"> Describe z-index and how stacking context is formed.</h3>
+                            <p class="ans"> A stacking context is created when an element is positioned and assigned a
+                                z-index value other than auto , or when an element has an opacity value less than 1. In
+                                WebKit and Chrome 22+ an element with a fixed position always creates a stacking
+                                context, even when the z-index value is auto .
+                            </p>
+                        </div>
+                        <div class="content">
+                            <div class="quesandans">
+                                <h3 class="ques">What are attributes in HTML?</h3>
+                                <p class="ans">An HTML attribute is a piece of markup language used to adjust the
+                                    behavior or display of an HTML element. For example, attributes can be used to
+                                    change the color, size, or functionality of HTML elements.</p>
+                            </div>
+                            <div class="content">
+                                <div class="quesandans">
+                                    <h3 class="ques">Describe BFC (Block Formatting Context) and how it works.
+                                    </h3>
+                                    <p class="ans">A block formatting context is a part of a visual CSS rendering of a
+                                        web page. It's the region in which the layout of block boxes occurs and in which
+                                        floats interact with other elements. A block formatting context is created by at
+                                        least one of the following: The root element of the document.</p>
+                                </div>
+                                <div class="content">
+                                    <div class="quesandans">
+                                        <h3 class="ques">Have you ever used a grid system, and if so, what do you
+                                            prefer?</h3>
+                                        <p class="ans"> Before Flex became popular (around 2014), the float-based grid
+                                            system was the most reliable because it still has the most browser support
+                                            among the alternative existing systems (flex, grid). Bootstrap was using the
+                                            float approach until Bootstrap 4 which switched to the flex-based approach.
+                                            As of writing (2020), flex is the recommended approach for building grid
+                                            systems and has decent browser support.</p>
+                                    </div>
+                                    <div class="content">
+                                        <div class="quesandans">
+                                            <h3 class="ques"> Have you used or implemented media queries or mobile
+                                                specific layouts/CSS?
+                                            </h3>
+                                            <p class="ans">Yes. An example would be transforming a stacked pill
+                                                navigation into a fixed-bottom tab navigation beyond a certain
+                                                breakpoint.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="quesandans">
+                                            <h3 class="ques">Explain how a browser determines what elements match a CSS
+                                                selector.</h3>
+                                            <p class="ans"> rowsers match selectors from rightmost (key selector) to
+                                                left. Browsers filter out elements in the DOM according to the key
+                                                selector and traverse up its parent elements to determine matches. The
+                                                shorter the length of the selector chain, the faster the browser can
+                                                determine if that element matches the selector.</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="quesandans">
+                                            <h3 class="ques"> Describe pseudo-elements and discuss what they are used
+                                                for.</h3>
+                                            <p class="ans">A CSS pseudo-element is a keyword added to a selector that
+                                                lets you style a specific part of the selected element(s). For example,
+                                                ::first-line can be used to change the font of the first line of a
+                                                paragraph.</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="quesandans">
+                                            <h3 class="ques"> Explain your understanding of the box mode.</h3>
+                                            <p class="ans"> In CSS, the term "box model" is used when talking about
+                                                design and layout. The CSS box model is essentially a box that wraps
+                                                around every HTML element. It consists of: margins, borders, padding,
+                                                and the actual content. ... Margin - Clears an area outside the border.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="quesandans">
+                                            <h3 class="ques">What does * { box-sizing: border-box; } do? What are its
+                                                advantages?</h3>
+                                            <p class="ans"> The box-sizing property allows us to include the padding and
+                                                border in an element's total width and height. If you set box-sizing:
+                                                border-box; on an element, padding and border are included in the width
+                                                and height: Both divs are the same size now!.</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="quesandans">
+                                            <h3 class="ques">What is the CSS display property and can you give a few
+                                                examples of its use?</h3>
+                                            <p class="ans">The display CSS property sets whether an element is treated
+                                                as a block or inline element and the layout used for its children, such
+                                                as flow layout, grid or flex. Formally, the display property sets an
+                                                element's inner and outer display types.</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="quesandans">
+                                            <h3 class="ques">What's the difference between inline and inline-block?</h3>
+                                            <p class="ans">Block Elements occupy the full width irrespective of their
+                                                sufficiency. Inline elements don't start in a new line. Block elements
+                                                always start in a line. Inline elements allow other inline elements to
+                                                sit behind.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="quesandans">
+                                            <h3 class="ques">What's the difference between the "nth-of-type()" and
+                                                "nth-child()" selectors?</h3>
+                                            <p class="ans">As a general rule, if you want to select an interval of a
+                                                selector regardless of the type of element it is, use nth-child .
+                                                However, if you want to select a specific type only and apply an
+                                                interval selection from there, use nth-of-type.</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="quesandans">
+                                            <h3 class="ques"> What's the difference between a relative, fixed, absolute
+                                                and statically positioned element?
+                                            </h3>
+                                            <p class="ans">Absolute positioning defines the position of a given bounding
+                                                box from the top and left side margins of the web page. This not only
+                                                allows objects to be placed in an exact location, it also allows objects
+                                                to be placed one on top of another.
+                                                Relative positioning defines the positioning in such a way that elements
+                                                are offset from the previous element in the HTML code. This allows
+                                                objects to be placed in relation to one another.
+                                                Fixed positioning defines the position of a given box relative to the
+                                                window and remains in its specified location even as the content scrolls
+                                                underneath it. This value does not work in Internet Explorer 6 or
+                                                earlier. In IE 7, the browser must be in “standards-compliance mode”.
+                                                Static positioning is the default. It defines the position of a given
+                                                box essentially as an unpositioned element – it flows in the normal
+                                                rendering sequence of the web page.</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="quesandans">
+                                            <h3 class="ques"> What existing CSS frameworks have you used locally, or in
+                                                production? How would you change/improve them?</h3>
+                                            <p class="ans"> Never used.</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="quesandans">
+                                            <h3 class="ques">.Have you used CSS Grid?</h3>
+                                            <p class="ans">Yes, i used CSS grid in the project.</p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+</body>
+
+</html>
